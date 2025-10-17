@@ -1,5 +1,6 @@
 package com.jtepic.mcspace;
 
+import com.jtepic.mcspace.block.ModBlocks;
 import com.jtepic.mcspace.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -22,5 +23,6 @@ public class MCSpace implements ModInitializer {
 
 		LOGGER.info("MCSpace Loading");
         ModItems.registerModItems();
+        ModBlocks.registerModBlocks();
 	}
 }

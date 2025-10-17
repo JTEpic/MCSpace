@@ -1,4 +1,7 @@
 {
   "item.mcspace.parachute": "Parachute",
-  "item.mcspace.green_parachute": "Green Parachute"
+  "item.mcspace.green_parachute": "Green Parachute",
+
+  "block.mcspace.moon_block": "Moon Block",
+  "block.mcspace.black_hole_block": "Black Hole Block"
 }

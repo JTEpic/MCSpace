@@ -1,0 +1,6 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "mcspace:block/black_hole_block"
+  }
+}

@@ -41,6 +41,13 @@ dependencies {
 	
 }
 
+// >1.21.4
+fabricApi {
+    configureDataGeneration() {
+        client = true
+    }
+}
+
 processResources {
 	inputs.property "version", project.version
 

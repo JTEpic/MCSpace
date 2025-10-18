@@ -9,12 +9,16 @@
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/JTEpic/MCSpace"
 	},
 	"license": "CC0-1.0",
 	"icon": "assets/mcspace/icon.png",
 	"environment": "*",
 	"entrypoints": {
+        "fabric-datagen": [
+            "com.jtepic.mcspace.MCSpaceModDataGenerator",
+            "com.jtepic.mcspace.MCSpaceModDataGeneratorClient"
+        ],
 		"main": [
 			"com.jtepic.mcspace.MCSpace"
 		],

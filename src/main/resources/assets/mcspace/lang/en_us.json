@@ -2,6 +2,11 @@
   "item.mcspace.parachute": "Parachute",
   "item.mcspace.green_parachute": "Green Parachute",
 
+  "item.mcspace.armor_trim_smithing_template": "MCSpace Smithing Template",
+
+  "trim_material.mcspace.parachute": "Parachute Material",
+  "trim_pattern.mcspace.kaupen": "Kaupen Armor Pattern",
+
   "block.mcspace.moon_block": "Moon Block",
   "block.mcspace.black_hole_block": "Black Hole Block"
 }

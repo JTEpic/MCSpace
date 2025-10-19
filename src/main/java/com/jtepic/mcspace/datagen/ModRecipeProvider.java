@@ -3,13 +3,17 @@ package com.jtepic.mcspace.datagen;
 import com.jtepic.mcspace.MCSpace;
 import com.jtepic.mcspace.block.ModBlocks;
 import com.jtepic.mcspace.item.ModItems;
+import com.jtepic.mcspace.trim.ModTrimPatterns;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricRecipeProvider;
 import net.minecraft.data.recipe.RecipeExporter;
 import net.minecraft.data.recipe.RecipeGenerator;
 import net.minecraft.item.ItemConvertible;
 import net.minecraft.recipe.book.RecipeCategory;
+import net.minecraft.registry.RegistryKey;
+import net.minecraft.registry.RegistryKeys;
 import net.minecraft.registry.RegistryWrapper;
+import net.minecraft.util.Identifier;
 
 import java.util.concurrent.CompletableFuture;
 
@@ -24,8 +28,6 @@ public class ModRecipeProvider extends FabricRecipeProvider {
             @Override
             public void generate() {
                 // Recipe datagen
-                // 9 - 1 and 1 - 9, two in one command
-                offerReversibleCompactingRecipes(RecipeCategory.BUILDING_BLOCKS, ModItems.PARACHUTE, RecipeCategory.DECORATIONS, ModBlocks.BLACK_HOLE_BLOCK);
 
                 /*List<ItemConvertible> PINK_GARNET_SMELTABLES = List.of(ModItems.RAW_PINK_GARNET, ModBlocks.PINK_GARNET_ORE,
                         ModBlocks.PINK_GARNET_DEEPSLATE_ORE);
@@ -55,6 +57,13 @@ public class ModRecipeProvider extends FabricRecipeProvider {
 
                 offerSmithingTrimRecipe(ModItems.KAUPEN_SMITHING_TEMPLATE, ModTrimPatterns.KAUPEN,
                         RegistryKey.of(RegistryKeys.RECIPE, Identifier.of(MCSpace.MOD_ID, "kaupen")));*/
+
+                // 9 - 1 and 1 - 9, two in one recipe command
+                offerReversibleCompactingRecipes(RecipeCategory.BUILDING_BLOCKS, ModItems.PARACHUTE, RecipeCategory.DECORATIONS, ModBlocks.BLACK_HOLE_BLOCK);
+
+                // Trim Recipe
+                offerSmithingTrimRecipe(ModItems.SMITHING_TEMPLATE, ModTrimPatterns.KAUPEN,
+                        RegistryKey.of(RegistryKeys.RECIPE, Identifier.of(MCSpace.MOD_ID, "kaupen")));
             }
         };
     }

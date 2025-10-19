@@ -1,11 +1,13 @@
 // 1.21.10	-999999999-01-01T00:00:00	MCSpace/Model Definitions
 e54ca6382b9ce564039e96979b8fd0cbd0e3cec7 assets/mcspace/blockstates/black_hole_block.json
 6a4d9418d16ee05d81189e1f5a5d3d3ccb99b0f0 assets/mcspace/blockstates/moon_block.json
+7252de1f3351598fb581cb711a5006b341b1708c assets/mcspace/items/armor_trim_smithing_template.json
 22dc4623387e6efc6596eb4b3c165ca56a0dd29f assets/mcspace/items/black_hole_block.json
 98d6ef2588fab4b2f861df270cd849e6d7c02a95 assets/mcspace/items/green_parachute.json
 354ede0fb172a2ceb6d414320aafc3cd5b6d3998 assets/mcspace/items/moon_block.json
 0001930280230eccb2c9b6c771e4c44814f60d89 assets/mcspace/items/parachute.json
 16f956173c06725911d37d8978963482c1abd796 assets/mcspace/models/block/black_hole_block.json
 a54a39b025a589accfd789ec88f5c5a6dd6e8a7f assets/mcspace/models/block/moon_block.json
+113bb4c32b0ca6933754adf669dff20e2f3411fd assets/mcspace/models/item/armor_trim_smithing_template.json
 f7be686535dc0250ed91dbcd6ddce6cd370f498d assets/mcspace/models/item/green_parachute.json
 b05c07ecefcce821ffca0907351153ce2562b35b assets/mcspace/models/item/parachute.json

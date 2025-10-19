@@ -16,7 +16,6 @@
 	"environment": "*",
 	"entrypoints": {
         "fabric-datagen": [
-            "com.jtepic.mcspace.MCSpaceModDataGenerator",
             "com.jtepic.mcspace.MCSpaceModDataGeneratorClient"
         ],
 		"main": [

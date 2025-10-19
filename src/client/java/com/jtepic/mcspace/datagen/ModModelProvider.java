@@ -25,5 +25,8 @@ public class ModModelProvider extends FabricModelProvider {
         // Item datagen
         itemModelGenerator.register(ModItems.PARACHUTE, Models.GENERATED);
         itemModelGenerator.register(ModItems.GREEN_PARACHUTE, Models.GENERATED);
+
+        // Trim
+        itemModelGenerator.register(ModItems.SMITHING_TEMPLATE, Models.GENERATED);
     }
 }

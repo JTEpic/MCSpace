@@ -1,0 +1,8 @@
+Goals:
+Custom Dimension
+
+Issues:
+Smithed Item doesnt show color, color intensity for item?
+
+Modding Playlist
+https://www.youtube.com/watch?v=oU8-qV-ZtUY&list=PLKGarocXCE1H_HxOYihQMq0mlpqiUJj4L

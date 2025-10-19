@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    "mcspace:black_hole_block"
+  ],
+  "result": {
+    "count": 9,
+    "id": "mcspace:parachute"
+  }
+}

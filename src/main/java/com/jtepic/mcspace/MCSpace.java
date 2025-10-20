@@ -2,6 +2,7 @@ package com.jtepic.mcspace;
 
 import com.jtepic.mcspace.block.ModBlocks;
 import com.jtepic.mcspace.item.ModItems;
+import com.jtepic.mcspace.world.gen.ModWorldGeneration;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -22,7 +23,9 @@ public class MCSpace implements ModInitializer {
 		// Proceed with mild caution.
 
 		LOGGER.info("MCSpace Loading");
+
         ModItems.registerModItems();
         ModBlocks.registerModBlocks();
+        //ModWorldGeneration.generateModWorldGen();
 	}
 }

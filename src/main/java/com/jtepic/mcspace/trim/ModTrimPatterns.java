@@ -13,7 +13,7 @@ import net.minecraft.util.Identifier;
 import net.minecraft.util.Util;
 
 public class ModTrimPatterns {
-    // Armor Pattern Trim Customization
+    // Armor Pattern Trim Customization, may need to add to atlases when creating
     public static final RegistryKey<ArmorTrimPattern> KAUPEN = RegistryKey.of(RegistryKeys.TRIM_PATTERN,
             Identifier.of(MCSpace.MOD_ID, "kaupen"));
 

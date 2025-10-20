@@ -19,7 +19,7 @@ import net.minecraft.util.Util;
 import java.util.Map;
 
 public class ModTrimMaterials {
-    // Armor Color Trim Customization
+    // Armor Color Trim Customization, may need to add to atlases when creating
     public static final RegistryKey<ArmorTrimMaterial> PARACHUTE = RegistryKey.of(RegistryKeys.TRIM_MATERIAL,
             Identifier.of(MCSpace.MOD_ID, "parachute"));
 

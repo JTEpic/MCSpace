@@ -1,8 +1,12 @@
 Goals:
 Custom Dimension
 
+/execute in <dimension> run teleport <coordinates>
+
 Issues:
 Smithed Item doesnt show color, color intensity for item?
 
 Modding Playlist
 https://www.youtube.com/watch?v=oU8-qV-ZtUY&list=PLKGarocXCE1H_HxOYihQMq0mlpqiUJj4L
+Dimension json generator
+https://misode.github.io/dimension/

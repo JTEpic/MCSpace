@@ -5,6 +5,7 @@ import com.jtepic.mcspace.trim.ModTrimMaterials;
 import com.jtepic.mcspace.trim.ModTrimPatterns;
 import com.jtepic.mcspace.world.ModConfiguredFeatures;
 import com.jtepic.mcspace.world.ModPlacedFeatures;
+import com.jtepic.mcspace.world.biome.ModBiomes;
 import com.jtepic.mcspace.world.dimension.ModDimensions;
 import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
@@ -40,8 +41,11 @@ public class MCSpaceModDataGeneratorClient implements DataGeneratorEntrypoint {
         registryBuilder.addRegistry(RegistryKeys.TRIM_PATTERN, ModTrimPatterns::bootstrap);
 
         // World Gen
-        registryBuilder.addRegistry(RegistryKeys.CONFIGURED_FEATURE, ModConfiguredFeatures::bootstrap);
-        registryBuilder.addRegistry(RegistryKeys.PLACED_FEATURE, ModPlacedFeatures::bootstrap);
+        //registryBuilder.addRegistry(RegistryKeys.CONFIGURED_FEATURE, ModConfiguredFeatures::bootstrap);
+        //registryBuilder.addRegistry(RegistryKeys.PLACED_FEATURE, ModPlacedFeatures::bootstrap);
+
+        // Biomes
+        registryBuilder.addRegistry(RegistryKeys.BIOME, ModBiomes::boostrap);
 
         // Dimension
         registryBuilder.addRegistry(RegistryKeys.DIMENSION_TYPE, ModDimensions::bootstrapType);

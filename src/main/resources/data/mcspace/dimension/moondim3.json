@@ -1,0 +1,11 @@
+{
+  "type": "mcspace:moondim_type",
+  "generator": {
+    "type": "minecraft:noise",
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "mcspace:moon_plain"
+    },
+    "settings": "minecraft:overworld"
+  }
+}

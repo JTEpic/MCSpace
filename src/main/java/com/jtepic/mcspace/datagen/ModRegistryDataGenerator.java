@@ -19,8 +19,11 @@ public class ModRegistryDataGenerator extends FabricDynamicRegistryProvider {
         entries.addAll(wrapperLookup.getOrThrow(RegistryKeys.TRIM_PATTERN));
 
         // World Gen
-        entries.addAll(wrapperLookup.getOrThrow(RegistryKeys.CONFIGURED_FEATURE));
-        entries.addAll(wrapperLookup.getOrThrow(RegistryKeys.PLACED_FEATURE));
+        //entries.addAll(wrapperLookup.getOrThrow(RegistryKeys.CONFIGURED_FEATURE));
+        //entries.addAll(wrapperLookup.getOrThrow(RegistryKeys.PLACED_FEATURE));
+
+        // Biomes
+        entries.addAll(wrapperLookup.getOrThrow(RegistryKeys.BIOME));
 
         // Dimension
         entries.addAll(wrapperLookup.getOrThrow(RegistryKeys.DIMENSION_TYPE));
